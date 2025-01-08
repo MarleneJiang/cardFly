@@ -1,0 +1,56 @@
+:root {
+  --tiptap-black: rgb(0 0 0);
+  --tiptap-white: rgb(255 255 255);
+  --tiptap-stone-50: rgb(250 250 249);
+  --tiptap-stone-100: rgb(245 245 244);
+  --tiptap-stone-200: rgb(231 229 228);
+  --tiptap-stone-300: rgb(214 211 209);
+  --tiptap-stone-400: rgb(168 162 158);
+  --tiptap-stone-500: rgb(120 113 108);
+  --tiptap-stone-600: rgb(87 83 78);
+  --tiptap-stone-700: rgb(68 64 60);
+  --tiptap-stone-800: rgb(41 37 36);
+  --tiptap-stone-900: rgb(28 25 23);
+
+  --tiptap-highlight-default: #ffffff;
+  --tiptap-highlight-purple: #f6f3f8;
+  --tiptap-highlight-red: #fdebeb;
+  --tiptap-highlight-yellow: #fbf4a2;
+  --tiptap-highlight-blue: #c1ecf9;
+  --tiptap-highlight-green: #acf79f;
+  --tiptap-highlight-orange: #faebdd;
+  --tiptap-highlight-pink: #faf1f5;
+  --tiptap-highlight-gray: #f1f1ef;
+
+  --font-title: "Cal Sans", sans-serif;
+}
+
+.dark-theme {
+  --tiptap-black: rgb(255 255 255);
+  --tiptap-white: rgb(25 25 25);
+  --tiptap-stone-50: rgb(35 35 34);
+  --tiptap-stone-100: rgb(41 37 36);
+  --tiptap-stone-200: rgb(66 69 71);
+  --tiptap-stone-300: rgb(112 118 123);
+  --tiptap-stone-400: rgb(160 167 173);
+  --tiptap-stone-500: rgb(193 199 204);
+  --tiptap-stone-600: rgb(212 217 221);
+  --tiptap-stone-700: rgb(229 232 235);
+  --tiptap-stone-800: rgb(232 234 235);
+  --tiptap-stone-900: rgb(240, 240, 241);
+
+  --tiptap-highlight-default: #000000;
+  --tiptap-highlight-purple: #3f2c4b;
+  --tiptap-highlight-red: #5c1a1a;
+  --tiptap-highlight-yellow: #5c4b1a;
+  --tiptap-highlight-blue: #1a3d5c;
+  --tiptap-highlight-green: #1a5c20;
+  --tiptap-highlight-orange: #5c3a1a;
+  --tiptap-highlight-pink: #5c1a3a;
+  --tiptap-highlight-gray: #3a3a3a;
+}
+
+@font-face {
+  font-family: "Cal Sans";
+  src: local("Cal Sans"), url(CalSans-SemiBold.otf) format("otf");
+}
